@@ -11,7 +11,6 @@ import eventlet.wsgi
 from PIL import Image
 from flask import Flask
 from io import BytesIO
-from preprocess import preprocess,process #crop,normalize_input
 import skimage.transform as imtrasform
 from keras.models import load_model
 import h5py
